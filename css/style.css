@@ -151,12 +151,21 @@ body {
 	line-height: 2;
 	letter-spacing: 0.2px;
 	color: #FFFFFF;
+	transition: all 0.5s ease-out;
 }
 .intro__button_transparent {
 	color: #0D5C63;
 	background-color: transparent;
 	border: 1px solid #0D5C63;
 	width: 157px;
+}
+
+.intro__button:hover {
+	background-color: #84371a;
+}
+
+.intro__button_transparent:hover {
+	background-color: rgb(225, 227, 226);
 }
 
 /* ================================================================ */
@@ -177,6 +186,7 @@ body {
 	padding: 35px 40px;
 	background-color: #FFFFFF;
 	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+	transition: all 0.3s ease-out;
 }
 .services__item_green {
 	background-color: #0D5C63;
@@ -199,6 +209,11 @@ body {
 	letter-spacing: 0.2px;
 	color: #737373;
 }
+
+.services__item:hover {
+	transform: translate(3%, 3%);
+}
+
 .text-white {
 	color: #FFFFFF;
 }
