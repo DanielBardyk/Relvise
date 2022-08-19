@@ -182,8 +182,8 @@ body {
 	flex-direction: column;
 	gap: 10px;
 	max-width: 328px;
-	max-height: 242px;
-	padding: 35px 40px;
+	min-height: 242px;
+	padding: 35px 54px 0px 40px;
 	background-color: #FFFFFF;
 	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 	transition: all 0.3s ease-out;
@@ -192,9 +192,13 @@ body {
 	background-color: #0D5C63;
 	color: #FFFFFF;
 }
+
 .services__image {
 	height: 48px;
+	display: flex;
+	align-items: center;
 }
+
 .services__title {
 	font-weight: 700;
 	font-size: 24px;
